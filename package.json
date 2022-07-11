@@ -1,13 +1,8 @@
 {
     "private": true,
     "scripts": {
-        "dev": "npm run development",
-        "development": "mix",
-        "watch": "mix watch",
-        "watch-poll": "mix watch -- --watch-options-poll=1000",
-        "hot": "mix watch --hot",
-        "prod": "npm run production",
-        "production": "mix --production"
+        "dev": "vite",
+        "build": "vite build"
     },
     "dependencies": {
         "@ckeditor/ckeditor5-alignment": "^34.0.0",
@@ -98,8 +93,6 @@
         "autoprefixer": "^10.4.2",
         "axios": "^0.24.0",
         "del": "^6.0.0",
-        "laravel-mix": "^6.0.39",
-        "laravel-mix-purgecss": "^6.0.0",
         "lodash": "^4.17.19",
         "postcss": "^8.4.5",
         "postcss-import": "^14.0.2",
@@ -108,6 +101,8 @@
         "rtlcss": "^3.5.0",
         "sass": "^1.47.0",
         "sass-loader": "^12.4.0",
-        "webpack-rtl-plugin": "^2.0.0"
+        "webpack-rtl-plugin": "^2.0.0",
+        "vite": "^2.9.12",
+        "laravel-vite-plugin": "^0.2.2"
     }
 }
